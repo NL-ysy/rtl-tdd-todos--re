@@ -7,5 +7,6 @@ describe('<TodoForm />', () => {
         const{getByText, getByPlaceholderText} = render(<TodoForm/>);
         getByPlaceholderText('할 일을 입력하세요~'); //input 있는지 없는지
         getByText('등록'); //button이 있는지 없는지
+        
     })
 })
